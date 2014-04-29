@@ -1,24 +1,23 @@
 {
-  "name": "wag",
+  "name": "ptail",
 	"author": "Evan Short",
 	"description": "nicer tail",
-  "version": "0.9.3",
+  "version": "0.0.1",
 	"bin": {
-		"mark": "./bin/mark",
-		"dogoto": "./bin/dogoto"
+		"ptail": "./index.js"
 	},
  "preferGlobal": true,
  "repository": {
 	 "type": "git",
-	 "url" : "https://github.com/whtevn/gotomark.git"
+	 "url" : "https://github.com/whtevn/ptail.git"
  },
  "bugs": {
-		"url": "https://github.com/whtevn/gotomark/issues"
+		"url": "https://github.com/whtevn/ptail/issues"
 	},
  "licenses": [
 		{
 			"type": "MIT",
-			"url": "https://github.com/whtevn/gotomark/blob/master/LICENSE"
+			"url": "https://github.com/whtevn/ptail/blob/master/LICENSE"
 		}
 	],
   "engines": {
@@ -30,11 +29,6 @@
 		"utility",
 		"tool"
 	],
-  "scripts": {
-    "postinstall": "./install.js",
-    "postuninstall": "./uninstall.js",
-    "postupdate": "./uninstall.js"
-  },
   "dependencies": {
     "optimist": "~0.6.0"
   }
