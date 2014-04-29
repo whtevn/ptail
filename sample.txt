@@ -9,3 +9,4 @@ yes?
 yes?
 yes?
 what is it?\nnothing\n\tok
+what is it?\nnothing\n\tok

@@ -1,7 +1,7 @@
 {
   "name": "ptail",
 	"author": "Evan Short",
-	"description": "nicer tail",
+	"description": "a nicer way to tail",
   "version": "0.0.1",
 	"bin": {
 		"ptail": "./index.js"
@@ -20,16 +20,10 @@
 			"url": "https://github.com/whtevn/ptail/blob/master/LICENSE"
 		}
 	],
-  "engines": {
-    "node": ">=0.8.26"
-  },
  "keywords": [
 		"cli",
-		"shortcut",
 		"utility",
+		"tail",
 		"tool"
-	],
-  "dependencies": {
-    "optimist": "~0.6.0"
-  }
+	]
 }
