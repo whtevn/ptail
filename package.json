@@ -2,7 +2,7 @@
   "name": "ptail",
 	"author": "Evan Short",
 	"description": "a nicer way to tail",
-  "version": "0.0.1",
+  "version": "0.0.2",
 	"bin": {
 		"ptail": "./index.js"
 	},
